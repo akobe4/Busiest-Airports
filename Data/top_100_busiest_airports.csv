@@ -1,4 +1,4 @@
-Rank,Airport,Code,Location,Country,Passengers
+rank,airport_name,code,city,country,no_passengers
 1,Hartsfield–Jackson Atlanta International Airport,ATL,Atlanta,United States,"103,902,992"
 2,Beijing Capital International Airport,PEK,Beijing,China,"95,786,442"
 3,Dubai International Airport,DXB,Dubai,United Arab Emirates,"88,242,099"
