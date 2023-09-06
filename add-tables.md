@@ -77,3 +77,22 @@ FROM 'C:\Users\akobe\OneDrive\Desktop\Lighthouse\After\Busiest-Airports\Data\arr
 DELIMITER ','
 CSV Header;
 ```
+
+Population Table 
+data taken from:  https://simplemaps.com/data/world-cities
+
+```SQL
+CREATE TABLE population (
+     city varchar(255)
+    ,country varchar(255)
+    ,country_code varchar(3)
+    ,population int
+);
+```
+
+```SQL
+COPY population
+FROM 'C:\Users\akobe\OneDrive\Desktop\Lighthouse\After\Busiest-Airports\Data\worldcities.csv'
+DELIMITER ','
+CSV Header;
+```
