@@ -11,3 +11,4 @@ LEFT JOIN population po ON ai.city = po.city
 ORDER BY ai.city;
 ```
 
+- need to find new way of confirming the correct city in the query
