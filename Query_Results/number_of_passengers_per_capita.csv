@@ -1,0 +1,101 @@
+"airport_name","city","country","passengers_per_capita"
+"Abu Dhabi International Airport","Abu Dhabi","United Arab Emirates",16.0
+"Amsterdam Airport Schiphol","Amsterdam","Netherlands",46.9
+"Antalya Airport","Antalya","Turkey",10.6
+"Hartsfield–Jackson Atlanta International Airport","Atlanta","United States",20.5
+"Washington International Thurgood Marshall Airport","Baltimore","United States",11.9
+"Kempegowda International Airport","Bangalore","India",1.6
+"Don Mueang International Airport","Bangkok","Thailand",2.1
+"Suvarnabhumi Airport","Bangkok","Thailand",3.3
+"Barcelona–El Prat Airport","Barcelona","Spain",9.8
+"Beijing Capital International Airport","Beijing","China",5.1
+"El Dorado International Airport","Bogota","Colombia",3.8
+"Logan International Airport","Boston","United States",8.6
+"Brisbane International Airport","Brisbane","Australia",9.8
+"Brussels Airport","Brussels","Belgium",14.2
+"Cancún International Airport","Cancun","Mexico",26.5
+"Changsha Huanghua International Airport","Changcha","China",NULL
+"Charlotte Douglas International Airport","Charlotte","United States",30.2
+"Jeju International Airport","Cheju","South Korea",NULL
+"Chengdu Shuangliu International Airport","Chengdu","China",3.4
+"O'Hare International Airport","Chicago","United States",9.2
+"Chongqing Jiangbei International Airport","Chongqing","China",3.1
+"Copenhagen Airport","Copenhagen","Denmark",21.3
+"Dallas-Fort Worth International Airport","Dallas","United States",11.8
+"Indira Gandhi International Airport","Delhi","India",1.9
+"Denver International Airport","Denver","United States",23.1
+"Detroit Metropolitan Wayne County Airport","Detroit","United States",9.8
+"Hamad International Airport","Doha","Qatar",30.2
+"Dubai International Airport","Dubai","United Arab Emirates",26.4
+"Dublin Airport","Dublin","Ireland",25.2
+"Düsseldorf International Airport","Duesseldorf","Germany",NULL
+"Fort Lauderdale Hollywood International Airport","Fort Lauderdale","United States",178.3
+"Frankfurt am Main International Airport","Frankfurt","Germany",84.4
+"Fukuoka Airport","Fukuoka","Japan",10.2
+"Guangzhou Baiyun International Airport","Guangzhou","China",2.4
+"Hangzhou Xiaoshan International Airport","Hangzhou","China",3.7
+"Tan Son Nhat International Airport","Ho Chi Minh City","Vietnam",2.3
+"Hong Kong International Airport","Hong Kong","Hong Kong",9.7
+"George Bush Intercontinental Houston Airport","Houston","United States",7.2
+"Istanbul Atatürk Airport","Istanbul","Turkey",3.9
+"Sabiha Gökçen International Airport","Istanbul","Turkey",1.9
+"Soekarno-Hatta International Airport","Jakarta","Indonesia",1.8
+"King Abdulaziz International Airport","Jeddah","Saudi Arabia",8.5
+"Kuala Lumpur International Airport","Kuala Lumpur","Malaysia",6.5
+"Kunming Changshui International Airport","Kunming","China",10.1
+"McCarran International Airport","Las Vegas","United States",22.5
+"Lisbon Portela Airport","Lisbon","Portugal",9.8
+"Heathrow Airport","London","United Kingdom",6.9
+"Gatwick Airport","London","United Kingdom",4.0
+"London Stansted Airport","London","United Kingdom",2.3
+"Los Angeles International Airport","Los Angeles","United States",6.9
+"Adolfo Suárez Madrid–Barajas Airport","Madrid","Spain",8.5
+"Manchester Airport","Manchester","United Kingdom",10.3
+"Ninoy Aquino International Airport","Manila","Philippines",1.6
+"Melbourne Airport","Melbourne","Australia",7.4
+"Mexico City International Airport","Mexico City","Mexico",2.0
+"Miami International Airport","Miami","United States",7.7
+"St Paul International Airport","Minneapolis","United States",13.3
+"Sheremetyevo International Airport","Moscow","Russia",2.3
+"Moscow Domodedovo Airport","Moscow","Russia",1.7
+"Chhatrapati Shivaji International Airport","Mumbai","India",1.8
+"Munich Airport","Munich","Germany",17.1
+"Nanjing Lukou International Airport","Nanjing","China",3.0
+"John F. Kennedy International Airport","New York","United States",3.1
+"LaGuardia Airport","New York","United States",1.5
+"Newark Liberty International Airport","Newark","United States",141.6
+"Orlando International Airport","Orlando","United States",23.0
+"Orlando Executive Airport","Orlando","United States",16.6
+"Kansai International Airport","Osaka","Japan",1.8
+"Oslo Airport, Gardermoen","Oslo","Norway",25.8
+"Palma De Mallorca Airport","Palma de Mallorca","Spain",NULL
+"Charles de Gaulle International Airport","Paris","France",6.2
+"Philadelphia International Airport","Philadelphia","United States",5.3
+"Phoenix Sky Harbor International Airport","Phoenix","United States",10.8
+"Liuting Airport","Qingdao","China",3.9
+"King Khaled International Airport","Riyadh","Saudi Arabia",3.4
+"Leonardo da Vinci–Fiumicino Airport","Rome","Italy",14.2
+"Salt Lake City International Airport","Salt Lake City","United States",21.3
+"San Francisco International Airport","San Francisco","United States",16.9
+"São Paulo–Guarulhos International Airport","Sao Paulo","Brazil",1.6
+"Seattle–Tacoma International Airport","Seattle","United States",13.6
+"Incheon International Airport","Seoul","South Korea",2.7
+"Gimpo International Airport","Seoul","South Korea",1.0
+"Shanghai Hongqiao International Airport","Shanghai","China",1.7
+"Shanghai Pudong International Airport","Shanghai","China",2.9
+"Shenzhen Bao'an International Airport","Shenzhen","China",2.5
+"Singapore Changi Airport","Singapore","Singapore",10.3
+"Stockholm Arlanda Airport","Stockholm","Sweden",16.5
+"Sydney Airport","Sydney","Australia",8.9
+"Taiwan Taoyuan International Airport","Taipei","Taiwan",4.9
+"Haneda Airport","Tokyo","Japan",2.0
+"Narita International Airport","Tokyo","Japan",1.0
+"Toronto Pearson International Airport","Toronto","Canada",8.6
+"Vancouver International Airport","Vancouver","Canada",10.6
+"Vienna International Airport","Vienna","Austria",12.3
+"Ronald Reagan Washington National Airport","Washington","United States",4.9
+"Wuhan Tianhe International Airport","Wuhan","China",2.2
+"Xi'an Xianyang International Airport","Xi'an","China",3.3
+"Xiamen Gaoqi International Airport","Xiamen","China",6.6
+"Zhengzhou Xinzheng International Airport","Zhengzhou","China",4.3
+"Zürich Airport","Zurich","Switzerland",67.3
