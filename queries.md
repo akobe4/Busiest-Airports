@@ -11,3 +11,6 @@ LEFT JOIN population po ON ai.city = po.city
 ORDER BY ai.city;
 ```
 
+![Alt text](image.png)
+
+

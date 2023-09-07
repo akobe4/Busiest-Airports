@@ -78,7 +78,7 @@ DELIMITER ','
 CSV Header;
 ```
 
-Population Table 
+**Population Table** 
 data taken from:  https://simplemaps.com/data/world-cities
 Went through populaltion table in comparison to the airports table and deleted the cities that have the same name, but are not the one as given by airport name. These rows were deleted from the population table prior to importing to SQL.
 
@@ -98,4 +98,12 @@ COPY population
 FROM 'C:\Users\akobe\OneDrive\Desktop\Lighthouse\After\Busiest-Airports\Data\worldcities.csv'
 DELIMITER ','
 CSV Header;
+```
+**GDP Table**
+data taken from: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+Figures from 2022
+All values are in USD
+
+```SQL
+
 ```
