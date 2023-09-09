@@ -30,5 +30,7 @@ FROM airports ai
 LEFT JOIN gdp gd ON ai.country = gd.country_name
 GROUP BY ai.country
 ORDER BY gdp_rank 
-
 ```
+
+![Alt text](image-1.png)
+
