@@ -22,13 +22,13 @@ SELECT ai.country
 	   , RANK () OVER(
 	    ORDER BY SUM(ai.no_passengers) DESC
 	   ) passenger_rank
-	   	,SUM(gd.gdp) AS total_gdp
-	   , RANK () OVER(
-	    ORDER BY SUM(gd.gdp) DESC
+	   	,SUM(gd.gdp) AS total_gdp 
+	   ,RANK () OVER(
+	    ORDER BY SUM(gd.gdp) DESC NULLS LAST
 	   ) gdp_rank 
 FROM airports ai
-LEFT JOIN gdp gd ON ai.country =gd.country_name
+LEFT JOIN gdp gd ON ai.country = gd.country_name
 GROUP BY ai.country
-ORDER BY ai.country
+ORDER BY gdp_rank 
 
 ```
