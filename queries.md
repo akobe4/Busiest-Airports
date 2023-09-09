@@ -14,3 +14,21 @@ ORDER BY ai.city;
 ![Alt text](image.png)
 
 
+**Do countries with the busiest airports (by number of passengers) have higher GDP**
+
+```SQL
+SELECT ai.country 
+	   ,SUM(ai.no_passengers) AS total_passengers
+	   , RANK () OVER(
+	    ORDER BY SUM(ai.no_passengers) DESC
+	   ) passenger_rank
+	   	,SUM(gd.gdp) AS total_gdp
+	   , RANK () OVER(
+	    ORDER BY SUM(gd.gdp) DESC
+	   ) gdp_rank 
+FROM airports ai
+LEFT JOIN gdp gd ON ai.country =gd.country_name
+GROUP BY ai.country
+ORDER BY ai.country
+
+```

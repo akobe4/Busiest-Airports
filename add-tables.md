@@ -1,7 +1,6 @@
-Code for table creatation
+**Code for table creatation**
 
-Airport Table 
-
+**Airport Table** 
 ```SQL
 CREATE TABLE airports (
      airport_rank int
@@ -20,7 +19,7 @@ DELIMITER ','
 CSV Header;
 ```
 
-Metadata Table
+**Metadata Table**
 ```SQL
 CREATE TABLE metadata (
      country_code varchar(3)
@@ -37,7 +36,7 @@ DELIMITER ','
 CSV Header;
 ```
 
-Number of Arrivals Table 
+**Number of Arrivals Table** 
 ```SQL
 CREATE TABLE no_arrivals (
      country_name varchar(255)
@@ -99,11 +98,23 @@ FROM 'C:\Users\akobe\OneDrive\Desktop\Lighthouse\After\Busiest-Airports\Data\wor
 DELIMITER ','
 CSV Header;
 ```
+
 **GDP Table**
 data taken from: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-Figures from 2022
+Figures from 2022 - GDP by country 
 All values are in USD
 
 ```SQL
+CREATE TABLE gdp (
+     country_name varchar(255)
+    ,country_code varchar(3)
+    ,gdp numeric
+);
+```
 
+```SQL
+COPY gdp
+FROM 'C:\Users\akobe\OneDrive\Desktop\Lighthouse\After\Busiest-Airports\Data\country_gdp.csv'
+DELIMITER ','
+CSV Header;
 ```
