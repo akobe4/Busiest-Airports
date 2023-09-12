@@ -35,11 +35,4 @@ ORDER BY gdp_rank
 ![Alt text](image-1.png)
 
 
-**Average number of arrivals at each airport from 1995 to 2020**
-SELECT country_name
-	  ,AVG(y_1995 + y_1996 + y_1997 + y_1998 + y_1999 + y_2000 + y_2001 + y_2002
-		  + y_2003 + y_2004 + y_2005 + y_2006 + y_2007 + y_2008 + y_2009 + y_2010
-		  + y_2011 + y_2012 + y_2013 + y_2014 + y_2015 + y_2016 + y_2017 + y_2018
-		  + y_2019 + y_2020) AS av_arrivals
-FROM no_arrivals
-GROUP BY country_name
+****
