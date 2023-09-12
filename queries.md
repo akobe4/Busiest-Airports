@@ -35,4 +35,33 @@ ORDER BY gdp_rank
 ![Alt text](image-1.png)
 
 
-****
+**Number of passengers at each airport as a percentage of their country's 2019 total number of international tourism arrivals*
+need to keep in mind that the number of passesngers might include both incoming and outgoing as well as domestic travellers. We also don't know what year the number of passengers at each airport is from. 
+
+```SQL
+SELECT ai.airport_name
+	  ,ROUND((ai.no_passengers/n.y_2019)* 100, 2) AS perc_total_passengers
+FROM airports ai
+LEFT JOIN no_arrivals n ON ai.country = n.country_name
+ORDER BY airport_name
+```
+
+![Alt text](image-2.png)
+
+As seen in the results some airports have a percentage of over 100 of their country's total international arrivals, this is not the best way to view this data. 
+
+
+**Query of airports, their region and income group**
+
+```SQL
+SELECT ai.airport_rank
+	  ,ai.airport_name
+	  ,ai.country
+	  ,me.region
+	  ,me.income_group
+FROM airports ai
+LEFT JOIN metadata me ON ai.country = me.name
+```
+
+![Alt text](image-3.png)
+
