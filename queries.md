@@ -29,7 +29,7 @@ SELECT ai.country
 FROM airports ai
 LEFT JOIN gdp gd ON ai.country = gd.country_name
 GROUP BY ai.country
-ORDER BY gdp_rank 
+ORDER BY gdp_rank; 
 ```
 
 ![Alt text](image-1.png)
@@ -43,7 +43,7 @@ SELECT ai.airport_name
 	  ,ROUND((ai.no_passengers/n.y_2019)* 100, 2) AS perc_total_passengers
 FROM airports ai
 LEFT JOIN no_arrivals n ON ai.country = n.country_name
-ORDER BY airport_name
+ORDER BY airport_name;
 ```
 
 ![Alt text](image-2.png)
@@ -60,8 +60,36 @@ SELECT ai.airport_rank
 	  ,me.region
 	  ,me.income_group
 FROM airports ai
-LEFT JOIN metadata me ON ai.country = me.name
+LEFT JOIN metadata me ON ai.country = me.name;
 ```
 
 ![Alt text](image-3.png)
+
+
+**Query of which regions have the highest total number of airline passengers**
+
+```SQL
+SELECT me.region
+	  ,SUM(ai.no_passengers) AS total_passengers 
+FROM airports ai 
+LEFT JOIN metadata me ON ai.country = me.name
+GROUP BY me.region
+ORDER BY total_passengers DESC;
+```
+
+![Alt text](image-6.png)
+
+
+**Query of which income group has the highest average number of passengers**
+
+```SQL
+SELECT me.income_group
+	  ,ROUND(AVG(ai.no_passengers)) AS av_passengers 
+FROM airports ai 
+LEFT JOIN metadata me ON ai.country = me.name
+GROUP BY me.income_group
+ORDER BY av_passengers DESC;
+```
+
+![Alt text](image-5.png)
 
